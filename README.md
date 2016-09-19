@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-<iframe src="https://drive.google.com/file/d/0ByikUbxyvuAIWnhyeVIyM1I4Qk0/preview" width="640" height="480" title='Video Walkthrough' width='' alt='Video Walkthrough'></iframe>
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
