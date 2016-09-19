@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I have encountered some minor issues of dependencies.
+I have encountered some minor issues of Android Studio's dependencies.
 
 ## License
 
