@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] toast notification on the click of each action(Add/delete/Edit).
 
 ## Video Walkthrough 
 
