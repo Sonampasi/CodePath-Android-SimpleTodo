@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/AppTheme"
+        app:title="Edit Task"
+        app:titleTextColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="40dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/hint_name"
+            android:id="@+id/etEditName" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/editRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="Priority"
+                android:layout_marginTop="10dp" />
+            <RadioButton
+                android:text="High"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbEditHigh"
+                android:layout_marginTop="5dp" />
+            <RadioButton
+                android:text="Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbEditMedium"
+                android:layout_marginTop="5dp" />
+            <RadioButton
+                android:text="Low"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbEditLow"
+                android:layout_marginTop="5dp" />
+        </RadioGroup>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_due_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:hint="@string/hint_due_date"
+                android:id="@+id/etEditDueDate"
+                android:drawableRight="@drawable/ic_date_range_pink_400_36dp"
+                android:layout_marginTop="10dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnEditTask"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add_task"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"
+            android:onClick="onAddTask"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">SimpleTodo</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="create_task">Create Task</string>
     <string name="add">Add</string>
     <string name="add_item">Add a nem item..</string>
+    <string name="action_add">Add Task</string>
+    <string name="err_task_name">Enter task name</string>
+    <string name="err_due_date">Select date</string>
+    <string name="hint_name">Task Name</string>
+    <string name="hint_due_date">Due Date (dd/mm/yyyy)</string>
+    <string name="btn_add_task">Save</string>
 </resources>
