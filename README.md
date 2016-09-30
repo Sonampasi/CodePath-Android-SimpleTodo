@@ -4,7 +4,7 @@
 
 Submitted by: **Sonam Pasi**
 
-Time spent: **14** hours spent in total
+Time spent: **12-13** hours spent in total
 
 ## User Stories
 
