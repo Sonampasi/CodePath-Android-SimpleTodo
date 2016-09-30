@@ -4,7 +4,7 @@
 
 Submitted by: **Sonam Pasi**
 
-Time spent: **2.5** hours spent in total
+Time spent: **14** hours spent in total
 
 ## User Stories
 
@@ -38,7 +38,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I have encountered some minor issues of Android Studio's dependencies.
+I have encountered some minor issues of Android Studio's dependencies. Android Studio is sometimes too slow for processing.
+
 
 ## License
 
