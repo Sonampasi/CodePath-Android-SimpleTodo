@@ -27,6 +27,7 @@ The following **additional** features are implemented:
 
 * [x] Toast notification on the click of each action(Add/Delete/Edit).
 * [x] Form validation on create task activity.
+* [x] Added splash screen.
 
 ## Video Walkthrough 
 
